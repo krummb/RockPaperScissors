@@ -7,12 +7,6 @@ let win = document.getElementById('winner')
 let roundResults = document.getElementById('results')
 
 
-// function startGame(){
-// 	document.getElementById("container").style.visibility = "visible"
-// 	document.getElementById("start").style.visibility = "hidden"
-// }
-
-
 function playerPlay(choice){
 playRound(choice,computerPlay())
 pScore.innerText=(playerScore)
